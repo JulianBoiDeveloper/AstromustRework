@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "705253638189",
+    "firebase_url": "https://must-allowlist-default-rtdb.firebaseio.com",
+    "project_id": "must-allowlist",
+    "storage_bucket": "must-allowlist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705253638189:android:08442a36b94ce6e20638a4",
+        "android_client_info": {
+          "package_name": "com.aiforge.mustallow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705253638189-1hjnguvjo4rflujg21sj28g16qgtrb42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvwkxqTi50KtuScx48ci8aiHb9xDm4GdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705253638189-1hjnguvjo4rflujg21sj28g16qgtrb42.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "705253638189-f23tb8fk4ro94e6q8p8rbjam8g6fdh9g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aiforge.mustallowlist"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705253638189:android:0099d84c3abd8d6e0638a4",
+        "android_client_info": {
+          "package_name": "com.aiforge.mustallowlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705253638189-1hjnguvjo4rflujg21sj28g16qgtrb42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvwkxqTi50KtuScx48ci8aiHb9xDm4GdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705253638189-1hjnguvjo4rflujg21sj28g16qgtrb42.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "705253638189-f23tb8fk4ro94e6q8p8rbjam8g6fdh9g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aiforge.mustallowlist"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
