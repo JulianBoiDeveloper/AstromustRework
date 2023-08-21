@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8390816347588879867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5843862175298915776}
+  - component: {fileID: 7142642320819736763}
+  - component: {fileID: 3753504745974404815}
+  m_Layer: 14
+  m_Name: Rock1 5
+  m_TagString: Rock
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5843862175298915776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390816347588879867}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.289999, y: 1.7, z: 24.990002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5024125329730149533}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7142642320819736763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390816347588879867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd852a7fb3619dd44b2cf0e8edd42e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: a483e5e8-9ad7-4a3b-b0b6-57872aeba910
+  icon: {fileID: 21300000, guid: cdf147f8910278341b6ce3cf81c522f6, type: 3}
+  recipe: []
+  craftingTime: 10
+  byProduct: {fileID: 0}
+  upgradeRecipe: []
+  upgradeIcon: []
+  amount: 1
+  canBePicked: 0
+  canBeDropped: 0
+  canGoInInventory: 0
+  canBeStacked: 0
+  maxAmountStack: 1
+  canBeTakenFromInventory: 1
+  itemName: Object name
+  itemDescription: This is an item description
+  outlineEffect: {fileID: 0}
+  material: {fileID: 2763781564267423261, guid: a05706aa7a18d3540ae2c2b78f57b4e6, type: 3}
+  isFinite: 1
+  amountResource: 10
+  canRespawn: 1
+  respawnTime: 10
+  ejectsMaterialAutomatically: 0
+  ejectMaterialAutomaticallyTime: 0
+  needsToolToBeMined: 1
+  toolNeeded: {fileID: 6426231395711421756, guid: 25beb25619eb0794b84099c051f3e38a, type: 3}
+  health: 1
+  currentAmount: 0
+  hitVFX: {fileID: 1450638143650814, guid: 173cbdd891e2b2e448c07c7407b6248b, type: 3}
+  toolTypeNeeded: 0
+--- !u!135 &3753504745974404815
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390816347588879867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.92
+  m_Center: {x: 0, y: 0.75, z: 0}
+--- !u!1001 &7910027491845344244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5843862175298915776}
+    m_Modifications:
+    - target: {fileID: 2918147043574156105, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_Name
+      value: Rock S Vein 05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+--- !u!4 &5024125329730149533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2918147043574650729, guid: 374a4daa44b1b59439fe06ae2c47dbb0, type: 3}
+  m_PrefabInstance: {fileID: 7910027491845344244}
+  m_PrefabAsset: {fileID: 0}
