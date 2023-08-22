@@ -292,7 +292,7 @@ public class TestCharacterController : MonoBehaviour
         GlobalItemDescription.Instance.HideUI();
     }
 
-    [SerializeField] FixedTouchField fixedTouchField;
+    //[SerializeField] FixedTouchField fixedTouchField;
 
     public void TryInteract(bool isUse = true)
     {

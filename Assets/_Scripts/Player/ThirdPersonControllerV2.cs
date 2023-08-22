@@ -222,7 +222,7 @@ public class ThirdPersonControllerV2 : MonoBehaviour
 
     [SerializeField] bool global;
 
-    [SerializeField] FixedJoystick joystick;
+    //[SerializeField] FixedJoystick joystick;
     [SerializeField] bool enableMobileInputs;
 
     [SerializeField] Transform cameraTransform;
@@ -245,7 +245,7 @@ public class ThirdPersonControllerV2 : MonoBehaviour
 
         if (enableMobileInputs)
         {
-            input = new Vector2(joystick.input.x, joystick.input.y);
+           // input = new Vector2(joystick.input.x, joystick.input.y);
         }
         else
         {

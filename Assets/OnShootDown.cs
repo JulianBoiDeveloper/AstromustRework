@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
-
+/*
 public class OnShootDown : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
 
@@ -43,4 +43,4 @@ public class OnShootDown : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         isPressed = false;
     }
 
-}
+}*/

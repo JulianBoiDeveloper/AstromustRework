@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class MyCamera : MonoBehaviour
 {
     [SerializeField] float yAxis;
@@ -77,4 +77,4 @@ public class MyCamera : MonoBehaviour
         // Look at the player.
         transform.LookAt(target);
     }
-}
+}*/
