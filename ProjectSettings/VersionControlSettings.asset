@@ -1,8 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!890905787 &1
-VersionControlSettings:
-  m_ObjectHideFlags: 0
-  m_Mode: Hidden Meta Files
-  m_CollabEditorSettings:
-    inProgressEnabled: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:478907cca1ea82b203e343df17c279d42f7e8c346e0851057a4da032eae5ed63
+size 195
